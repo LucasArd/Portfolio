@@ -1,0 +1,38 @@
+.NavBarContainer{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.NavBarh3{
+    font-size: 3rem;
+}
+
+.NavBarh3:hover{
+    box-shadow: 0 0 20px rgb(213, 212, 227);
+    border-radius: 0.5rem;
+}
+
+.NavBarUl{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    font-size: 2rem;
+    gap: 2rem;
+
+}
+.NavBarOption{
+    margin-left: 3rem;
+    transition: transform 0.5s ease;
+}
+.NavBarOption:hover{
+    border-radius: 0.5rem;
+    box-shadow: 0 0 20px rgb(213, 212, 227);
+    transform: translateY(-5px);
+}
