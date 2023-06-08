@@ -1,6 +1,8 @@
 import './IndexView.css';
 import NavBar from '../Components/NavBar/NavBar';
 import MainSection from '../Components/MainSection/MainSection';
+import Proyects from '../Components/Proyects/Proyects';
+
 
 
 const IndexView = () => {
@@ -8,8 +10,8 @@ const IndexView = () => {
     <div className="App">
       <NavBar/>
       <MainSection/>
-      {/* <Proyects/>
-      <Skills/>
+      <Proyects/>
+      {/* <Skills/>
       <Contact/> */}
     </div>
   );

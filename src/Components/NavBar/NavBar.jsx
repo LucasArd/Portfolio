@@ -3,7 +3,6 @@ import "./NavBar.css";
 
 const menuOptions = ["Home","Proyectos","Skills","Contact"]
 
-
 const NavBar = () => {
 
     return (

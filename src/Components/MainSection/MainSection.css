@@ -5,28 +5,41 @@
     height: 40rem;
     align-items: center;
     gap: 10rem;
+    color: white;
 }
 
 .MainSectionDiv1{
     display: flex;
     flex-direction: column;
     width: 26rem;
-    gap: 2rem;
     font-weight: 700;
 }
 
+
 .MainSectionDiv1 h3{
     font-size: 3rem;
-    font-weight: 700;
+}
+
+.MainSectionDiv1 h4{
+    font-size: 2rem;
+}
+.MainSectionDiv1 h5{
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.typed{
+    font-size: 2rem;
+    color:rgb(20, 94, 104);
 }
 
 .MainSectionDiv1Ul{
     display: flex;
-    justify-content: center;
+    margin-left: 17%;
     gap: 1.5rem;
 
 }
-.MainSectionDiv1Ul span{
+.Icons{
+    margin: 1rem 0 1rem ;
     padding: 1rem;
     border-radius: 50%;
 }
@@ -61,20 +74,7 @@
     background:rgba(0, 255, 255, 0.429);
     transition: 0.8s;
 }
-@keyframes slideInLeft {
-    from {
-        transform: translateX(600px);
-    }
-    to{
-        transform: translateX(100);
-    }
-}
-.greeting{
-    display: flex;
-    animation-name: slideInLeft;
-    animation-duration: 5s;
 
-}
 .MainSectionDiv2 img{
     margin: 1rem;
     max-height: 30rem;
@@ -84,3 +84,14 @@
     background:linear-gradient( to top right,rgba(156,204,101 ,1) 0%, rgb(18, 96, 106) 50%);
 
 }
+
+.line{
+    display: flex;
+    margin-left: 20%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid white;
+    border-style: double;
+    width: 60%;
+}
+
