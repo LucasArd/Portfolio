@@ -1,0 +1,14 @@
+
+.boxContainer{
+    padding-left: 27%;
+}
+
+.line{
+    display: flex;
+    margin-left: 20%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid white;
+    border-style: double;
+    width: 60%;
+}

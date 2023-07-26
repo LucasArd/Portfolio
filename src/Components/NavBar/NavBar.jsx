@@ -1,14 +1,14 @@
 import React, { Fragment } from "react";
 import "./NavBar.css";
 
-const menuOptions = ["Home","Proyectos","Skills","Contact"]
+const menuOptions = ["Home","Proyectos","Skills","About"]
 
 const NavBar = () => {
 
     return (
         <Fragment>
             <nav className="NavBarContainer">
-                <h3 className="NavBarh3">Portfolio.</h3>
+                <h3 className="NavBarh3" href="#contact-me">Portfolio.</h3>
                 <ul className="NavBarUl">
                     {menuOptions.map((item , index) => {
                         return(

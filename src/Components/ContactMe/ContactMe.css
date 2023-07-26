@@ -1,0 +1,29 @@
+.contactForm{
+    width: 100%;
+    padding-top: 2rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 22%;
+}
+
+.header-contact{
+    padding-left: 10%;
+}
+.floatingLabel{
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 0.5rem;
+    padding-bottom: 1rem;
+    
+}
+.send-button{
+    background-color: green;
+    border-radius: 0.7rem;
+    width: 20%;
+    margin-left: 33%;
+    margin-top: 0.5rem;
+}

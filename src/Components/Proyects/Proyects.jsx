@@ -5,7 +5,6 @@ import './Proyects.css';
 
 const Proyects = () => {
 
-
     return (
         <Fragment>
             <h2 className="titleProyects">Proyects</h2>

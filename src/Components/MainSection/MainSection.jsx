@@ -2,7 +2,7 @@ import React, { Fragment, useEffect, useRef } from "react";
 import './MainSection.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faDownload } from '@fortawesome/free-solid-svg-icons'
 import Typed from "typed.js";
 
 const MainSection = () => {
@@ -32,17 +32,17 @@ const MainSection = () => {
                     <h4> Welcome! I am</h4>
                     <h3>Lucas Aranda,</h3>
                     <h5>and I'm a <span ref={txt} className="typed"></span> </h5>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, distinctio! consectetur adipisicing elit.</p> 
+                    <div> Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, distinctio! consectetur adipisicing elit.</div> 
                     <ul className="MainSectionDiv1Ul">
                         <span className="Icons"> <FontAwesomeIcon icon={faEnvelope} size="2x" /> </span>
                         <span className="Icons"> <FontAwesomeIcon icon={faGithub} size="2x" /> </span>
                         <span className="Icons"> <FontAwesomeIcon icon={faLinkedinIn} size="2x" /></span>
                     </ul>
-                    <button className="btn-box"> More About Me </button>
+                    <button className="btn-box"> Download CV <FontAwesomeIcon icon={faDownload} /> </button>
                 </div>
                 <div className="MainSectionDiv2">
                     <div>
-                        <img src={require('../../Assets/fotocv.jpg')} alt="fotocv"></img>
+                        <img src={require('../../Assets/FotoCV.jpeg')} alt="fotocv"></img>
                     </div>
                 </div>
             </section>

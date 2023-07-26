@@ -1,0 +1,12 @@
+
+.textContainerAbout{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+}
+
+.textAbout{
+    width: 60%;
+}
