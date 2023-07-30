@@ -49,7 +49,7 @@ export default function BasicTabs() {
 
     return (
         <React.Fragment>
-            <h2 className="titleProyects">Skills</h2>
+            <h2 className="titleProyects" id='skills'>Skills</h2>
             <Box sx={{ width: '100%' }} className='boxContainer' >
                 <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                     <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">

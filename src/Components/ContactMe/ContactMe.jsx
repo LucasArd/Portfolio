@@ -30,7 +30,7 @@ const ContactMe = () => {
 
     return (
         <Fragment>
-            <div className="contactForm" id="contact-me">
+            <div className="contactForm" >
                 <h2 className="titleProyects">Contact Me</h2>
 
                 <form ref={refForm} action="" onSubmit={handleSubmit} >

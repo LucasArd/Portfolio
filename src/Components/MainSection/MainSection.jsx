@@ -38,7 +38,7 @@ const MainSection = () => {
                         <span className="Icons"> <FontAwesomeIcon icon={faGithub} size="2x" /> </span>
                         <span className="Icons"> <FontAwesomeIcon icon={faLinkedinIn} size="2x" /></span>
                     </ul>
-                    <button className="btn-box"> Download CV <FontAwesomeIcon icon={faDownload} /> </button>
+                    <button className="btn-box"> <a href="../CV LucasAranda.pdf" download={''}>Download CV <FontAwesomeIcon icon={faDownload} /> </a> </button>
                 </div>
                 <div className="MainSectionDiv2">
                     <div>
@@ -46,7 +46,7 @@ const MainSection = () => {
                     </div>
                 </div>
             </section>
-            <div className="line"></div>
+            <div className="line" id='skills'></div>
 
         </Fragment>
     )

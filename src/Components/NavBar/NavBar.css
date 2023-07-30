@@ -17,10 +17,7 @@
 }
 
 .NavBarh3:hover{
-    box-shadow: 0 0 20px rgb(213, 212, 227);
     border-radius: 0.5rem;
-    cursor: pointer;
-
 }
 
 .NavBarUl{
